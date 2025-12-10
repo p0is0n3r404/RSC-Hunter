@@ -130,29 +130,7 @@ python -m rsc_hunter.cli -u "https://example.com" -v
 | `--waf-bypass-size` | Size of junk data in KB (default: 128) |
 | `--vercel-waf-bypass` | Use Vercel WAF bypass payload variant |
 
-## 📁 Project Structure
 
-```
-rsc-hunter/
-├── rsc_hunter/
-│   ├── cli.py              # Entry point & argument parsing
-│   ├── core/
-│   │   ├── network.py      # Request handling, redirects
-│   │   └── scanner.py      # Vulnerability check logic
-│   ├── payloads/
-│   │   ├── rce.py          # RCE payloads (Unix/Windows)
-│   │   ├── safe.py         # Safe check payloads
-│   │   └── bypass.py       # WAF bypass logic
-│   └── utils/
-│       ├── banners.py      # ASCII Art
-│       ├── colors.py       # Terminal colors
-│       └── output.py       # Reporting & Rich UI
-├── images/
-│   └── react-scanner-logo.png
-├── requirements.txt
-├── README.md
-└── scanner.py              # Legacy version (deprecated)
-```
 
 ## 📊 Output
 
