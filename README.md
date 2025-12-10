@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/react-scanner-logo.png" alt="RSC-Hunter Logo" width="400"/>
+  <img src="images/RCS-Hunter.png" alt="RSC-Hunter Logo" width="400"/>
   
   # RSC-Hunter
   
