@@ -59,7 +59,7 @@ The `--windows` flag switches the payload from Unix shell (`echo $((41*271))`) t
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rsc-hunter.git
+git clone https://github.com/p0is0n3r404/rsc-hunter.git
 cd rsc-hunter
 
 # Create virtual environment (recommended)
